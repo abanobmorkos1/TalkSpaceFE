@@ -1,13 +1,15 @@
 .sidebar {
     width: 250px;
-    background-color: #f9f9f9;
-    color: white;
-    position: fixed;
-    height: 100%;
+    background-color: #cccccc4b;
+    position: absolute;
+    height: 90%;
     text-align: center;
     padding: 15px;
-    border-right-color: bisque;
-    border: red solid ;
+    margin: 10px ;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top:20px
 }
 .column2 {
     margin-left:270px;
@@ -18,7 +20,7 @@ button {
     padding: 17px 40px;
     border-radius: 50px;
     border: 0;
-    background-color: white;
+    background-color: rgb(175, 246, 187);
     box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
@@ -28,9 +30,9 @@ button {
    
    button:hover {
     letter-spacing: 3px;
-    background-color: hsl(99, 100%, 46%);
-    color: hsl(0, 0%, 100%);
-    box-shadow: rgb(24, 220, 89) 0px 7px 29px 0px;
+    background-color: hsl(190, 91%, 75%);
+    color: hsl(0, 0%, 52%);
+    box-shadow: rgb(45, 132, 225) 0px 7px 29px 0px;
    }
    
    button:active {
@@ -40,13 +42,155 @@ button {
     box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
     transform: translateY(10px);
     transition: 100ms;
-   }
-
-.comment {
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 80%;
-    min-width: 80%;
 }
+
+.comContainer{
+    position: absolute;
+    left: 20%;
+    border: 5px solid black;
+}
+
+.comment{
+    text-align: center;
+    padding: 20px;
+}
+
+.lottieheart {
+    width: 50px;
+    height: 50px;
+}
+a {
+    color: #011f3c ;
+    text-decoration: none;
+}
+
+body{
+    background-color: #517461;
+    padding: 30px;
+}
+
+
+
+.sidebar2 {
+    width: 250px;
+    background-color: #364f52;
+    position: absolute;
+    height: 90%;
+    text-align: center;
+    padding: 15px;
+    margin: 10px ;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+    bottom: 10px;
+}
+
+#form {
+    position: relative;
+    bottom:30%;
+    place-items: center;
+    width: 300px;
+    height: 472px;
+    padding: 25px;
+    background-color: #161616;
+    box-shadow: 0px 15px 60px #00FF7F;
+    outline: 1px solid #2b9962;
+    border-radius: 10px;
+    position: absolute;
+    left: 43%;
+    bottom: 30%;
+  }
+  
+  #form-body {
+    position: absolute;
+    top: 30%;
+    right: 25px;
+    left: 25px;
+    width: 230px;
+    margin: -156px auto 0 auto;
+  }
+  
+  #welcome-lines {
+    text-align: center;
+    line-height: 1;
+  }
+  
+  #welcome-line-1 {
+    color: #00FF7F;
+    font-weight: 600;
+    font-size: 40px;
+  }
+  
+  #welcome-line-2 {
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 17px;
+  }
+  
+  #input-area {
+    margin-top: 40px;
+  }
+  
+  .form-inp {
+    padding: 11px 25px;
+    background: transparent;
+    border: 1px solid #e3e3e3;
+    line-height: 1;
+    border-radius: 8px;
+  }
+  
+  .form-inp:focus {
+    border: 1px solid #00FF7F;
+  }
+  
+  .form-inp:first-child {
+    margin-bottom: 15px;
+  }
+  
+  .form-inp input {
+    width: 100%;
+    background: none;
+    font-size: 13.4px;
+    color: #00FF7F;
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .form-inp input:focus {
+    outline: none;
+  }
+  
+  #submit-button-cvr {
+    margin-top: 20px;
+  }
+  
+  #submit-button {
+    display: block;
+    width: 100%;
+    color: #00FF7F;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0;
+    padding: 14px 13px 12px 13px;
+    border: 0;
+    outline: 1px solid #00FF7F;
+    border-radius: 8px;
+    line-height: 1;
+    cursor: pointer;
+    transition: all ease-in-out .3s;
+  }
+  
+  #submit-button:hover {
+    transition: all ease-in-out .3s;
+    background-color: #00FF7F;
+    color: #161616;
+    cursor: pointer;
+  }
+  .space{
+    width: 25%;
+    height: 25%;
+
+  }

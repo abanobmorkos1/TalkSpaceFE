@@ -1,8 +1,10 @@
+import {Link } from 'react-router-dom'
 const Nav = () => {
-    return <div style={{display:"flex" }} className="nav-bar">
-            <h1>TalkSpace</h1>
-            <h2></h2>
+    return <div style={{marginBottom:"10px"}}>
+            <Link to='/'>
+            <h1 style={{textAlign:"center"}}>TalkSpace</h1>
+            </Link>
+            
         </div>
 }
-
 export default Nav;

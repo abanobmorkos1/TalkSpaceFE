@@ -1,6 +1,6 @@
 import Discussions from './post';
 import { useLoaderData } from 'react-router-dom';
-import { Form , Link} from "react-router-dom";
+import { Link} from "react-router-dom";
 
 const Index = (props) => {
     const data = useLoaderData()
