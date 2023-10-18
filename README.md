@@ -15,7 +15,7 @@ Welcome to TalkSpaceFE , a discussion app where users can post and engage in mea
 
 ## Mockup
 ![Create a discussion](./create.png)
-![Home page](./home.png)
+![Home page](./Home.png)
 ![Login page](./login.png)
 
 ## Getting Started
