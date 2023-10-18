@@ -1,5 +1,6 @@
 import { Link, useLoaderData , Form } from "react-router-dom";
-
+import Lottie from 'lottie-react'
+import space from '../animations/animation_lnw8frka.json'
 
 const Show = () => {
   const data = useLoaderData();
@@ -24,6 +25,9 @@ const Show = () => {
       </Link>
       </Form>
         </div>
+      <Lottie className="space" 
+      animationData={space}
+      />
       </div>
     </>
 };
