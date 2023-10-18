@@ -32,4 +32,4 @@ To get started with the backend set up , follow these steps:
    yarn install
 
 ## Deployed Site
-[Talkspace](https://talk-space-fe.vercel.app/createadiscussion)
+[Talkspace](https://safehive-fe.vercel.app/)
