@@ -11,7 +11,7 @@ Welcome to TalkSpaceFE , a discussion app where users can post and engage in mea
 ## Technologies used:
 - React
 - javaScript
-- Css
+- bootstrap
 
 ## Mockup
 ![Create a discussion](./create.png)
@@ -32,4 +32,4 @@ To get started with the backend set up , follow these steps:
    yarn install
 
 ## Deployed Site
-[Talkspace](https://talkspacebe.onrender.com)
+[Talkspace](https://talk-space-fe.vercel.app/createadiscussion)
